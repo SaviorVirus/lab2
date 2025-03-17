@@ -1,0 +1,121 @@
+2025-03-17T11:10:11.1386602Z ##[debug]Starting: job2
+2025-03-17T11:10:11.1407156Z ##[debug]Cleaning runner temp folder: /home/runner/work/_temp
+2025-03-17T11:10:11.1503286Z ##[debug]Starting: Set up job
+2025-03-17T11:10:11.1504408Z Current runner version: '2.322.0'
+2025-03-17T11:10:11.1526369Z ##[group]Operating System
+2025-03-17T11:10:11.1527104Z Ubuntu
+2025-03-17T11:10:11.1527666Z 24.04.2
+2025-03-17T11:10:11.1528199Z LTS
+2025-03-17T11:10:11.1528670Z ##[endgroup]
+2025-03-17T11:10:11.1529262Z ##[group]Runner Image
+2025-03-17T11:10:11.1529813Z Image: ubuntu-24.04
+2025-03-17T11:10:11.1530356Z Version: 20250309.1.0
+2025-03-17T11:10:11.1531317Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20250309.1/images/ubuntu/Ubuntu2404-Readme.md
+2025-03-17T11:10:11.1532949Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20250309.1
+2025-03-17T11:10:11.1533872Z ##[endgroup]
+2025-03-17T11:10:11.1534331Z ##[group]Runner Image Provisioner
+2025-03-17T11:10:11.1534976Z 2.0.422.1
+2025-03-17T11:10:11.1535608Z ##[endgroup]
+2025-03-17T11:10:11.1537965Z ##[group]GITHUB_TOKEN Permissions
+2025-03-17T11:10:11.1539875Z Actions: write
+2025-03-17T11:10:11.1540493Z Attestations: write
+2025-03-17T11:10:11.1541029Z Checks: write
+2025-03-17T11:10:11.1541475Z Contents: write
+2025-03-17T11:10:11.1542202Z Deployments: write
+2025-03-17T11:10:11.1542712Z Discussions: write
+2025-03-17T11:10:11.1543171Z Issues: write
+2025-03-17T11:10:11.1543716Z Metadata: read
+2025-03-17T11:10:11.1544171Z Packages: write
+2025-03-17T11:10:11.1544656Z Pages: write
+2025-03-17T11:10:11.1545137Z PullRequests: write
+2025-03-17T11:10:11.1545701Z RepositoryProjects: write
+2025-03-17T11:10:11.1546216Z SecurityEvents: write
+2025-03-17T11:10:11.1546775Z Statuses: write
+2025-03-17T11:10:11.1547373Z ##[endgroup]
+2025-03-17T11:10:11.1549810Z Secret source: Actions
+2025-03-17T11:10:11.1550907Z ##[debug]Primary repository: SaviorVirus/lab2
+2025-03-17T11:10:11.1551592Z Prepare workflow directory
+2025-03-17T11:10:11.1619664Z ##[debug]Creating pipeline directory: '/home/runner/work/lab2'
+2025-03-17T11:10:11.1622991Z ##[debug]Creating workspace directory: '/home/runner/work/lab2/lab2'
+2025-03-17T11:10:11.1624446Z ##[debug]Update context data
+2025-03-17T11:10:11.1627909Z ##[debug]Evaluating job-level environment variables
+2025-03-17T11:10:11.1855087Z ##[debug]Evaluating job container
+2025-03-17T11:10:11.1858295Z ##[debug]Evaluating job service containers
+2025-03-17T11:10:11.1860633Z ##[debug]Evaluating job defaults
+2025-03-17T11:10:11.1885459Z Prepare all required actions
+2025-03-17T11:10:11.2014002Z ##[debug]Set step '__run' display name to: 'Printing Custom Message'
+2025-03-17T11:10:11.2019311Z ##[debug]Set step '__run_2' display name to: 'Printing run-job boolean value'
+2025-03-17T11:10:11.2020998Z Complete job name: job2
+2025-03-17T11:10:11.2045137Z ##[debug]Collect running processes for tracking orphan processes.
+2025-03-17T11:10:11.2284324Z ##[debug]Finishing: Set up job
+2025-03-17T11:10:11.2398534Z ##[debug]Evaluating condition for step: 'Printing Custom Message'
+2025-03-17T11:10:11.2481409Z ##[debug]Evaluating: success()
+2025-03-17T11:10:11.2487116Z ##[debug]Evaluating success:
+2025-03-17T11:10:11.2505633Z ##[debug]=> true
+2025-03-17T11:10:11.2511618Z ##[debug]Result: true
+2025-03-17T11:10:11.2534269Z ##[debug]Starting: Printing Custom Message
+2025-03-17T11:10:11.2649507Z ##[debug]Loading inputs
+2025-03-17T11:10:11.2677716Z ##[debug]Evaluating: format('echo {0}', inputs.custom_message)
+2025-03-17T11:10:11.2679047Z ##[debug]Evaluating format:
+2025-03-17T11:10:11.2683157Z ##[debug]..Evaluating String:
+2025-03-17T11:10:11.2684253Z ##[debug]..=> 'echo {0}'
+2025-03-17T11:10:11.2697152Z ##[debug]..Evaluating Index:
+2025-03-17T11:10:11.2699167Z ##[debug]....Evaluating inputs:
+2025-03-17T11:10:11.2700310Z ##[debug]....=> Object
+2025-03-17T11:10:11.2706667Z ##[debug]....Evaluating String:
+2025-03-17T11:10:11.2707263Z ##[debug]....=> 'custom_message'
+2025-03-17T11:10:11.2710430Z ##[debug]..=> 'Executing KodeKloud Lab 2'
+2025-03-17T11:10:11.2711849Z ##[debug]=> 'echo Executing KodeKloud Lab 2'
+2025-03-17T11:10:11.2713068Z ##[debug]Result: 'echo Executing KodeKloud Lab 2'
+2025-03-17T11:10:11.2718761Z ##[debug]Loading env
+2025-03-17T11:10:11.2788557Z ##[group]Run echo Executing KodeKloud Lab 2
+2025-03-17T11:10:11.2789385Z echo Executing KodeKloud Lab 2
+2025-03-17T11:10:11.3157338Z shell: /usr/bin/bash -e {0}
+2025-03-17T11:10:11.3158301Z ##[endgroup]
+2025-03-17T11:10:11.3243159Z ##[debug]/usr/bin/bash -e /home/runner/work/_temp/5825fa8e-9297-49c7-a7af-c3847c7e67cd.sh
+2025-03-17T11:10:11.3365220Z Executing KodeKloud Lab 2
+2025-03-17T11:10:11.3435114Z ##[debug]Finishing: Printing Custom Message
+2025-03-17T11:10:11.3449283Z ##[debug]Evaluating condition for step: 'Printing run-job boolean value'
+2025-03-17T11:10:11.3458265Z ##[debug]Evaluating: (success() && (inputs.run-job == true))
+2025-03-17T11:10:11.3459273Z ##[debug]Evaluating And:
+2025-03-17T11:10:11.3461704Z ##[debug]..Evaluating success:
+2025-03-17T11:10:11.3462799Z ##[debug]..=> true
+2025-03-17T11:10:11.3464087Z ##[debug]..Evaluating Equal:
+2025-03-17T11:10:11.3466155Z ##[debug]....Evaluating Index:
+2025-03-17T11:10:11.3467034Z ##[debug]......Evaluating inputs:
+2025-03-17T11:10:11.3467877Z ##[debug]......=> Object
+2025-03-17T11:10:11.3468665Z ##[debug]......Evaluating String:
+2025-03-17T11:10:11.3469456Z ##[debug]......=> 'run-job'
+2025-03-17T11:10:11.3470719Z ##[debug]....=> true
+2025-03-17T11:10:11.3471483Z ##[debug]....Evaluating Boolean:
+2025-03-17T11:10:11.3472567Z ##[debug]....=> true
+2025-03-17T11:10:11.3476031Z ##[debug]..=> true
+2025-03-17T11:10:11.3477043Z ##[debug]=> true
+2025-03-17T11:10:11.3481657Z ##[debug]Expanded: (true && (true == true))
+2025-03-17T11:10:11.3482884Z ##[debug]Result: true
+2025-03-17T11:10:11.3484080Z ##[debug]Starting: Printing run-job boolean value
+2025-03-17T11:10:11.3497368Z ##[debug]Loading inputs
+2025-03-17T11:10:11.3499348Z ##[debug]Evaluating: format('echo {0}', inputs.run-job)
+2025-03-17T11:10:11.3500008Z ##[debug]Evaluating format:
+2025-03-17T11:10:11.3500656Z ##[debug]..Evaluating String:
+2025-03-17T11:10:11.3501229Z ##[debug]..=> 'echo {0}'
+2025-03-17T11:10:11.3501884Z ##[debug]..Evaluating Index:
+2025-03-17T11:10:11.3502777Z ##[debug]....Evaluating inputs:
+2025-03-17T11:10:11.3503330Z ##[debug]....=> Object
+2025-03-17T11:10:11.3503864Z ##[debug]....Evaluating String:
+2025-03-17T11:10:11.3504472Z ##[debug]....=> 'run-job'
+2025-03-17T11:10:11.3505068Z ##[debug]..=> true
+2025-03-17T11:10:11.3505635Z ##[debug]=> 'echo true'
+2025-03-17T11:10:11.3506206Z ##[debug]Result: 'echo true'
+2025-03-17T11:10:11.3506949Z ##[debug]Loading env
+2025-03-17T11:10:11.3515525Z ##[group]Run echo true
+2025-03-17T11:10:11.3516173Z echo true
+2025-03-17T11:10:11.3562658Z shell: /usr/bin/bash -e {0}
+2025-03-17T11:10:11.3563255Z ##[endgroup]
+2025-03-17T11:10:11.3609026Z ##[debug]/usr/bin/bash -e /home/runner/work/_temp/cc5323fa-a328-4702-9f9f-213250025ccd.sh
+2025-03-17T11:10:11.3637186Z true
+2025-03-17T11:10:11.3643529Z ##[debug]Finishing: Printing run-job boolean value
+2025-03-17T11:10:11.3687493Z ##[debug]Starting: Complete job
+2025-03-17T11:10:11.3690139Z Cleaning up orphan processes
+2025-03-17T11:10:11.4126426Z ##[debug]Finishing: Complete job
+2025-03-17T11:10:11.4158555Z ##[debug]Finishing: job2
